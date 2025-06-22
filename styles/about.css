@@ -1,26 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-@font-face {
-  font-family: "MajorMonoDisplay";
-  src: url("./fonts/MajorMonoDisplay.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "DaysOne";
-  src: url("./fonts/DaysOne.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: "MajorMonoDisplay", monospace, sans-serif;
-  background-color: #040507;
-}
-
 .section_one {
-  background-image: url("./imgs/Firefly_\ bug\ flipping\ robots\ on\ black\ background\ 90873\ 1.jpg");
+  background-image: url("../imgs/Firefly_\ bug\ flipping\ robots\ on\ black\ background\ 90873\ 1.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -155,56 +134,52 @@ body {
   font-size: 26.94px;
   text-align: center;
 }
-.btn.creator .popup,
-.btn.creator .popup.popupText,
-.btn.aboutus .popup,
-.btn.aboutus .popup.popupText {
+.section_one .btn.creator .popup,
+.section_one .btn.creator .popup.popupText,
+.section_one .btn.aboutus .popup,
+.section_one .btn.aboutus .popup.popupText {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-.btn.creator .popup.show,
-.btn.creator .popup.popupText.show,
-.btn.aboutus .popup.show,
-.btn.aboutus .popup.popupText.show {
+.section_one .btn.creator .popup.show,
+.section_one .btn.creator .popup.popupText.show,
+.section_one .btn.aboutus .popup.show,
+.section_one .btn.aboutus .popup.popupText.show {
   opacity: 1;
 }
 
-.bgText {
-  position: absolute;
-  color: #ebebeb;
-}
-.bgText.one {
+.section_one .bgText.one {
   width: 155px;
   top: 72px;
   left: 0px;
 }
-.bgText.two {
+.section_one .bgText.two {
   width: 155px;
   top: 540px;
   left: 0px;
 }
-.bgText.three {
+.section_one .bgText.three {
   width: 155px;
   top: 830px;
   left: 0px;
 }
-.bgText.four {
+.section_one .bgText.four {
   width: 155px;
   top: 45px;
   left: 658px;
 }
-.bgText.five {
+.section_one .bgText.five {
   width: 221px;
   top: 44px;
   left: 1010px;
 }
-.bgText.six {
+.section_one .bgText.six {
   width: 188px;
   top: 524px;
   left: 1164px;
 }
-.bgText.seven {
+.section_one .bgText.seven {
   width: 188px;
   top: 803px;
   left: 1164px;
@@ -213,6 +188,7 @@ body {
   top: 55px;
   left: 0;
   right: 0;
+  pointer-events: none;
 }
 .section_one .wrapper .btn.aboutus .popup .links {
   display: flex;
@@ -221,19 +197,23 @@ body {
   padding: 10px;
   padding-right: 0px;
 }
-
-.popup .links .link {
+.section_one .wrapper .btn.aboutus .popup .links .link a {
   font-family: "DaysOne", monospace, sans-serif;
   color: white;
   font-size: 26.94px;
+  text-decoration: none;
 }
+
 .btn.aboutus .popup,
 .btn.aboutus .bottom {
   transition: opacity 0.3s ease;
   opacity: 0;
 }
-
+.section_one .wrapper .btn.aboutus .popup.show {
+  pointer-events: all;
+}
 .btn.aboutus .popup.show,
 .btn.aboutus .bottom.show {
   opacity: 1;
+  pointer-events: all;
 }

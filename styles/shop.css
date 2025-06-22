@@ -1,0 +1,86 @@
+body {
+  background-color: #101012;
+}
+.section {
+  position: relative;
+  padding-top: 50px;
+}
+.section .wrapper {
+  position: relative;
+  max-width: 1330px;
+  height: 100%;
+  margin: auto;
+}
+.section .wrapper .linksBtn {
+  top: 500px;
+}
+.section .wrapper .shopItem,
+.section .wrapper .shopItem .price {
+  position: absolute;
+}
+.section .wrapper .shopItem .price {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+  height: 55px;
+
+  font-size: 24px;
+  background: #19d60f4a;
+  backdrop-filter: blur(10.476190567016602px);
+}
+.section .wrapper .shopItem.one .price {
+  bottom: -35px;
+  left: -32px;
+}
+.section .wrapper .shopItem.one {
+  left: 66px;
+  top: 64px;
+}
+.section .wrapper .shopItem.two {
+  left: 470px;
+  top: 64px;
+}
+.section .wrapper .shopItem.two .price {
+  bottom: 20px;
+  left: 50px;
+}
+
+.section .wrapper .shopItem.three {
+  left: 873px;
+  top: 64px;
+}
+.section .wrapper .shopItem.three .price {
+  bottom: -35px;
+  right: -40px;
+}
+.section .wrapper .shopItem.four {
+  left: 66px;
+  top: 477px;
+}
+.section .wrapper .shopItem.four .price {
+  bottom: -40px;
+  left: -36px;
+}
+.section .wrapper .shopItem.five {
+  left: 470px;
+  top: 477px;
+}
+.section .wrapper .shopItem.five .price {
+  bottom: 20px;
+  left: 60px;
+}
+.section .wrapper .project_link {
+  position: absolute;
+
+  color: white;
+  font-size: 14px;
+}
+.section .wrapper .project_link.one {
+  top: 740px;
+  left: 874px;
+}
+.section .wrapper .project_link.two {
+  top: 784px;
+  left: 874px;
+}
