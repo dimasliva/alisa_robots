@@ -29,6 +29,9 @@ body {
   background: #19d60f4a;
   backdrop-filter: blur(10.476190567016602px);
 }
+.section .wrapper .linksBtn {
+  gap: 100px;
+}
 .section .wrapper .shopItem.one .price {
   bottom: -35px;
   left: -32px;

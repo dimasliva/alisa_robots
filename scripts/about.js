@@ -20,17 +20,4 @@ document.addEventListener("DOMContentLoaded", () => {
   creatorBtn.addEventListener("click", () => {
     creatorPopup.classList.toggle("show");
   });
-
-  const aboutusBtn = document.querySelector(".btn.aboutus");
-  const aboutusPopup = aboutusBtn.querySelector(".popup");
-  const aboutusBottom = aboutusBtn.querySelector(".bottom");
-
-  aboutusBtn.addEventListener("click", () => {
-    const isPopupShown = aboutusPopup.classList.toggle("show");
-    if (isPopupShown) {
-      aboutusBottom.classList.remove("show");
-    } else {
-      aboutusBottom.classList.add("show");
-    }
-  });
 });

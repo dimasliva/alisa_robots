@@ -28,3 +28,15 @@ body {
   backdrop-filter: blur(4px);
   position: absolute;
 }
+.links {
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+}
+.links.visible {
+  pointer-events: all;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}

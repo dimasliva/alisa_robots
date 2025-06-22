@@ -1,4 +1,4 @@
-.section_one {
+.section {
   background-image: url("../imgs/Firefly_\ bug\ flipping\ robots\ on\ black\ background\ 90873\ 1.jpg");
   background-position: center;
   background-size: contain;
@@ -7,13 +7,13 @@
   position: relative;
   margin: 0 auto;
 }
-.section_one .wrapper {
+.section .wrapper {
   max-width: 1330px;
   position: relative;
   margin: 0 auto;
 }
 
-.section_one .wrapper .btn {
+.section .wrapper .btn {
   background: #19d60f4a;
   backdrop-filter: blur(4px);
 
@@ -22,17 +22,17 @@
   position: relative;
   cursor: pointer;
 }
-.section_one .wrapper .btn .text {
+.section .wrapper .btn .text {
   font-family: "DaysOne", monospace, sans-serif;
 }
-.section_one .wrapper .btn.contacts {
+.section .wrapper .btn.contacts {
   width: 233px;
   height: 55px;
   top: 560px;
   left: 378px;
   font-size: 26.94px;
 }
-.section_one .wrapper .btn.contacts .bottom {
+.section .wrapper .btn.contacts .bottom {
   width: 74px;
   height: 19px;
   bottom: -19px;
@@ -40,13 +40,13 @@
   transition: opacity 0.3s ease;
   opacity: 0;
 }
-.section_one .wrapper .btn.contacts .top {
+.section .wrapper .btn.contacts .top {
   width: 86px;
   height: 25px;
   top: -25px;
   right: -20px;
 }
-.section_one .wrapper .btn.contacts .popup {
+.section .wrapper .btn.contacts .popup {
   bottom: -54px;
   left: 40px;
   padding: 10px;
@@ -57,11 +57,11 @@
   transition: opacity 0.3s ease;
   opacity: 0;
 }
-.section_one .wrapper .btn.contacts .popup.show,
-.section_one .wrapper .btn.contacts .bottom.show {
+.section .wrapper .btn.contacts .popup.show,
+.section .wrapper .btn.contacts .bottom.show {
   opacity: 1;
 }
-.section_one .wrapper .btn.aboutus {
+.section .wrapper .btn.aboutus {
   width: 258px;
   top: 512px;
   left: 976px;
@@ -69,27 +69,27 @@
   height: 55px;
 }
 
-.section_one .wrapper .btn.aboutus .bottom {
+.section .wrapper .btn.aboutus .bottom {
   left: 0px;
   bottom: -21px;
 
   width: 104px;
   height: 21px;
 }
-.section_one .wrapper .btn.aboutus .text {
+.section .wrapper .btn.aboutus .text {
   display: flex;
   align-items: center;
   text-align: left;
 }
-.section_one .wrapper .btn.aboutus .text .arrow {
+.section .wrapper .btn.aboutus .text .arrow {
   margin-left: 30px;
 }
-.section_one .wrapper .btn.creator {
+.section .wrapper .btn.creator {
   width: 233px;
   top: 210px;
   left: 1000px;
 }
-.section_one .wrapper .btn.creator .popup {
+.section .wrapper .btn.creator .popup {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,120 +100,87 @@
   font-size: 26.94px;
 }
 
-.section_one .wrapper .btn.contacts .popup,
-.section_one .wrapper .btn.creator .popup,
-.section_one .wrapper .btn.contacts .top,
-.section_one .wrapper .btn.contacts .bottom,
-.section_one .wrapper .btn.aboutus .bottom,
-.section_one .wrapper .btn.creator .left,
-.section_one .wrapper .btn.aboutus .popup,
-.section_one .wrapper .btn.creator .bottom {
+.section .wrapper .btn.contacts .popup,
+.section .wrapper .btn.creator .popup,
+.section .wrapper .btn.contacts .top,
+.section .wrapper .btn.contacts .bottom,
+.section .wrapper .btn.aboutus .bottom,
+.section .wrapper .btn.creator .left,
+.section .wrapper .btn.aboutus .popup,
+.section .wrapper .btn.creator .bottom {
   font-family: "DaysOne", monospace, sans-serif;
   color: white;
   position: absolute;
   background: #19d60f4a;
   backdrop-filter: blur(4px);
 }
-.section_one .wrapper .btn.creator .left {
+.section .wrapper .btn.creator .left {
   width: 18px;
   height: 43px;
   top: 0px;
   left: -18px;
 }
-.section_one .wrapper .btn.creator .bottom {
+.section .wrapper .btn.creator .bottom {
   width: 74px;
   height: 19px;
   bottom: -19px;
   right: 0px;
 }
 
-.section_one .wrapper .btn .text,
+.section .wrapper .btn .text,
 .popupText {
   font-family: "DaysOne", monospace, sans-serif;
   color: #ffffff;
   font-size: 26.94px;
   text-align: center;
 }
-.section_one .btn.creator .popup,
-.section_one .btn.creator .popup.popupText,
-.section_one .btn.aboutus .popup,
-.section_one .btn.aboutus .popup.popupText {
+.section .btn.creator .popup,
+.section .btn.creator .popup.popupText,
+.section .btn.aboutus .popup,
+.section .btn.aboutus .popup.popupText {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
 
-.section_one .btn.creator .popup.show,
-.section_one .btn.creator .popup.popupText.show,
-.section_one .btn.aboutus .popup.show,
-.section_one .btn.aboutus .popup.popupText.show {
+.section .btn.creator .popup.show,
+.section .btn.creator .popup.popupText.show,
+.section .btn.aboutus .popup.show,
+.section .btn.aboutus .popup.popupText.show {
   opacity: 1;
 }
 
-.section_one .bgText.one {
+.section .bgText.one {
   width: 155px;
   top: 72px;
   left: 0px;
 }
-.section_one .bgText.two {
+.section .bgText.two {
   width: 155px;
   top: 540px;
   left: 0px;
 }
-.section_one .bgText.three {
+.section .bgText.three {
   width: 155px;
   top: 830px;
   left: 0px;
 }
-.section_one .bgText.four {
+.section .bgText.four {
   width: 155px;
   top: 45px;
   left: 658px;
 }
-.section_one .bgText.five {
+.section .bgText.five {
   width: 221px;
   top: 44px;
   left: 1010px;
 }
-.section_one .bgText.six {
+.section .bgText.six {
   width: 188px;
   top: 524px;
   left: 1164px;
 }
-.section_one .bgText.seven {
+.section .bgText.seven {
   width: 188px;
   top: 803px;
   left: 1164px;
-}
-.section_one .wrapper .btn.aboutus .popup {
-  top: 55px;
-  left: 0;
-  right: 0;
-  pointer-events: none;
-}
-.section_one .wrapper .btn.aboutus .popup .links {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 10px;
-  padding-right: 0px;
-}
-.section_one .wrapper .btn.aboutus .popup .links .link a {
-  font-family: "DaysOne", monospace, sans-serif;
-  color: white;
-  font-size: 26.94px;
-  text-decoration: none;
-}
-
-.btn.aboutus .popup,
-.btn.aboutus .bottom {
-  transition: opacity 0.3s ease;
-  opacity: 0;
-}
-.section_one .wrapper .btn.aboutus .popup.show {
-  pointer-events: all;
-}
-.btn.aboutus .popup.show,
-.btn.aboutus .bottom.show {
-  opacity: 1;
-  pointer-events: all;
 }

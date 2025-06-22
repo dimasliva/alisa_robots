@@ -53,17 +53,18 @@
   width: 100%;
   opacity: 0;
   transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 .section_two .ourcompany .links.visible {
   opacity: 1;
 }
-.section_two .ourcompany .links .link {
-  padding: 10px 20px;
-}
-.section_two .ourcompany .links .link a {
+
+.section_two .ourcompany .links a {
   color: white;
   font-family: "DaysOne", monospace, sans-serif;
   text-decoration: none;
+  padding: 10px 20px;
   font-size: 26.94px;
 }
 
