@@ -35,6 +35,10 @@
   top: 770px;
   left: 994px;
 }
+.section_two .wrapper video {
+  position: absolute;
+  width: 846px;
+}
 .section_two .ourcompany {
   width: 304px;
   height: 55px;
